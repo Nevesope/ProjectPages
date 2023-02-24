@@ -1,14 +1,13 @@
 package com.example.projectpages;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.projectpages.DatabaseManager;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.example.projectpages.DatabaseManager;
 
 public class MainActivity extends AppCompatActivity {
     EditText txtUsername;
